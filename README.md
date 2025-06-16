@@ -1,4 +1,4 @@
-# AI-Based Video Metadata Generation Pipeline
+# AI-Based Video Metadata Generation Method
 
 This repository contains code and an example notebook for our end-to-end method for automated, content-descriptive metadata generation in video archives. The approach integrates open-source AI models and supports flexible adaptation to organization-specific requirements.
 
