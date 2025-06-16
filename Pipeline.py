@@ -190,7 +190,7 @@ def extract_metadata(folder_path, xml_file, evaluation=False):
     # Add the removed abbreviations back to the beginning of each translated sentence
     descriptions = [" ".join(all_removals[i]) + " " + raw_translations[i] for i in range(len(all_removals))]
     
-    # create dataframe and sort values (due to weird structure in DR's .xml files)
+    # create dataframe and sort values
     comparison_df = pd.DataFrame({'Scene ID': scene_id, 'Start-Time': start_time, 'Ground Truth Description': descriptions})
     comparison_df = comparison_df.sort_values(by=['Start-Time'], ascending=True, ignore_index=True)
 
