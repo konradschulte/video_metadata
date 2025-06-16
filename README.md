@@ -1,6 +1,6 @@
 # AI-Based Video Metadata Generation Pipeline
 
-This repository contains code and an example notebook for our end-to-end pipeline for automated, content-descriptive metadata generation in video archives. The approach integrates open-source AI models and supports flexible adaptation to organization-specific requirements.
+This repository contains code and an example notebook for our end-to-end method for automated, content-descriptive metadata generation in video archives. The approach integrates open-source AI models and supports flexible adaptation to organization-specific requirements.
 
 ---
 
@@ -8,11 +8,11 @@ This repository contains code and an example notebook for our end-to-end pipelin
 
 * **Modular workflow** with six phases:
 
-  1. Data acquisition
+  1. Data acquisition (Videos and metadata)
   2. Frame extraction
   3. Duplicate removal
-  4. AI-based frame description (captioning, segmentation, object detection, multilabel classification, scene/night recognition, OCR/NER)
-  5. Summarization to scene level
+  4. AI-based frame description (included techniques: image captioning, image segmentation, object detection, multilabel classification, scene recognition, night recognition, text recognition (OCR))
+  5. Summarization to video scene level
   6. Quantitative and qualitative evaluation
 
 * **Open-source models only** for data control and cost-efficiency
